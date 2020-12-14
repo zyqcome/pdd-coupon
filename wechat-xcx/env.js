@@ -1,6 +1,6 @@
 export default {
   // 微信云函数配置
-  wxCloudEnv: "",
+  wxCloudEnv: "linjuanmo-3gfglyqd1536a997",
   // 跳转外卖券
   waimai: {
     appId: "wxbc8391c07266a8f5",
@@ -26,10 +26,10 @@ export default {
   // 首页子分类进去的详情页顶部banner图片地址
   subTypeBannerImage: {
     shot:
-      "cloud://ddlq-3g4f48et11eabade.6464-ddlq-3g4f48et11eabade-1304228075/s-hot.jpg",
+      "cloud://linjuanmo-3gfglyqd1536a997.6c69-linjuanmo-3gfglyqd1536a997-1304479055/s-hot.jpg",
     s19:
-      "cloud://ddlq-3g4f48et11eabade.6464-ddlq-3g4f48et11eabade-1304228075/s-19.jpg",
+      "cloud://linjuanmo-3gfglyqd1536a997.6c69-linjuanmo-3gfglyqd1536a997-1304479055/s-19.jpg",
     spp:
-      "cloud://ddlq-3g4f48et11eabade.6464-ddlq-3g4f48et11eabade-1304228075/s-pp.jpg",
+      "cloud://linjuanmo-3gfglyqd1536a997.6c69-linjuanmo-3gfglyqd1536a997-1304479055/s-pp.jpg",
   },
 };

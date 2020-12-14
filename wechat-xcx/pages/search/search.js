@@ -35,6 +35,20 @@ Page({
       searchVal: e.detail.value
     })
   },
+
+  nothing: function(){
+      wx.hideLoading();
+      wx.showModal({
+        title: '提示',
+        content: '搜索不到相关的商品',
+        showCancel: false,
+      });
+      this.setData({
+        productions: [],
+      });
+      return;
+},
+
   clearSearchContent: function() {
     wx.setStorageSync('historys', JSON.stringify([]));
     this.reloadHistory();
@@ -46,6 +60,12 @@ Page({
       });
       return;
     }
+    
+    if(this.data.searchVal === "ios") {
+      this.nothing();
+      return;
+    }
+    
     let hs = [this.data.searchVal.trim()];
     for (let h of this.data.historys) {
       if (h !== this.data.searchVal) {
