@@ -61,7 +61,7 @@ Page({
       return;
     }
     
-    if(this.data.searchVal === "ios") {
+    if(this.data.searchVal.toLowerCase() === "ios" ) {
       this.nothing();
       return;
     }

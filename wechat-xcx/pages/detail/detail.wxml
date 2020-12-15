@@ -34,7 +34,7 @@
       <text>{{detail.coupon_start_time_format}} - {{detail.coupon_end_time_format}}</text>
     </view>
     <view class="discount-yline" wx:if="{{detail.goods_name}}"></view>
-    <text class="discount-action" wx:if="{{detail.goods_name}}">立即领券</text>
+    <text class="discount-action" wx:if="{{detail.goods_name}}">此处可点</text>
   </view>
 
   <view class="shop-info" wx:if="{{detail.mall_name}}">
@@ -55,6 +55,6 @@
   <view class="bottom-actions">
     <view class="action-home" bindtap="gohome"><image src="/images/home-s.png"/></view>
     <view class="share"><button open-type="share"><text class="action-text">分享好友</text></button></view>
-    <view class="buy" bindtap="buy"><text class="action-text">立即领券</text></view>
+    <view class="buy" bindtap="buy"><text class="action-text">小程序走起</text></view>
   </view>
 </view>
